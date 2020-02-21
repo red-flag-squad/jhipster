@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    volumes:
+      - '.:/home/jhipster/app'
+    ports:
+      - 3001:3001
+      - 9000:9000
+      - 8080:8080
+    command: ['./mvnw']
