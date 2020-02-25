@@ -1,0 +1,7 @@
+
+
+entity Event {
+	name String
+    startsAt LocalDate
+    duration Integer
+}
